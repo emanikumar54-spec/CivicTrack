@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.streamlit/secrets.toml
+.env
+
+# IDE
+.vscode/
+
+# Test files
+.pytest_cache/
+.coverage
+# Local database
+database/*.db
+
+# Backup modules
+*_backup.py
